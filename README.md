@@ -1,3 +1,14 @@
+# Spring-boot WebFlux + Nuxt.js
+```
+$ git clone https://github.com/jittagornp/spring-boot-webflux-nuxtjs.git master  
+$ cd nuxtjs
+$ yarn install  
+$ yarn build  
+$ cd ..
+$ mvn clean install  
+$ mvn spring-boot:run 
+```
+
 # การเขียน Spring-boot WebFlux + Nuxt.js 
 
 ### 1. ทำการสร้าง spring-boot project    
