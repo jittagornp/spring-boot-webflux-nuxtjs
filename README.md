@@ -115,7 +115,8 @@ src/main/resources/static/
 .project
 .DS_Store
 .idea
-.settings/ 
+.settings/
+nuxtjs/yarn.lock
 ```
 
 
