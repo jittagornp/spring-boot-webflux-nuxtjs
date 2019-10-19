@@ -110,7 +110,12 @@ nuxtjs/yarn-error.log*
 จากนั้นเพิ่ม ignore ดังต่อไปนี้เข้าไป  
 ```
 target/
-src/main/resources/static/  
+src/main/resources/static/
+.classpath
+.project
+.DS_Store
+.idea
+.settings/ 
 ```
 
 
