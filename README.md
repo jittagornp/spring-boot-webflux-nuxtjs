@@ -1,6 +1,6 @@
 # Spring-boot WebFlux + Nuxt.js
 
-### Steps for build & run   
+### Steps สำหรับ build & run   
 ```
 $ git clone https://github.com/jittagornp/spring-boot-webflux-nuxtjs.git master  
 $ cd nuxtjs
@@ -10,6 +10,8 @@ $ cd ..
 $ mvn clean install  
 $ mvn spring-boot:run 
 ```
+
+เปืด browser [http://localhost:8080](http://localhost:8080)
 
 # ขั้นตอนการขึ้น Project 
 
