@@ -120,8 +120,9 @@ yarn build
 
 ### 9. ลอง run spring-boot 
 ```
-$ mvn spring-boot:run ที่ root maven project 
+$ mvn spring-boot:run 
 ```
+ที่ root maven project   
 ก็เป็นอันเสร็จเรียบร้อย  
 
 # Note
