@@ -71,7 +71,7 @@ public class IndexController {
 
 ```
 ### 4. config application.properties
-```
+```properties
 ...
 ...
 #--------------------------------- Thymleaf ------------------------------------
