@@ -11,7 +11,7 @@ $ mvn clean install
 $ mvn spring-boot:run 
 ```
 
-เปืด browser [http://localhost:8080](http://localhost:8080)
+เปิด browser [http://localhost:8080](http://localhost:8080)
 
 # ขั้นตอนการขึ้น Project 
 
