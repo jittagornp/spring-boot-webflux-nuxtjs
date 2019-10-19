@@ -1,7 +1,7 @@
 # การเขียน Spring-boot WebFlux + Nuxt.js 
 
 ### 1. ทำการสร้าง spring-boot project    
-add dependencies ดังต่อไปนี้ 
+`pom.xml` add dependencies ดังต่อไปนี้ 
 ```xml
 ...
   <dependency>
