@@ -1,6 +1,6 @@
 # Spring-boot WebFlux + Nuxt.js
 
-### Steps  
+### Steps for build & run   
 ```
 $ git clone https://github.com/jittagornp/spring-boot-webflux-nuxtjs.git master  
 $ cd nuxtjs
