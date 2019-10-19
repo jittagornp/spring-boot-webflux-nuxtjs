@@ -11,7 +11,7 @@ $ mvn clean install
 $ mvn spring-boot:run 
 ```
 
-# การเขียน Spring-boot WebFlux + Nuxt.js 
+# ขั้นตอนการขึ้น Project 
 
 ### 1. ทำการสร้าง spring-boot project    
 `pom.xml` add dependencies ดังต่อไปนี้ 
