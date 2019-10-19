@@ -70,7 +70,24 @@ public class IndexController {
 }
 
 ```
-### 4. สร้าง Nuxt project ที่ root maven project
+### 4. config application.properties
+```
+...
+...
+#--------------------------------- Thymleaf ------------------------------------
+spring.thymeleaf.cache=false
+spring.thymeleaf.check-template=true
+spring.thymeleaf.check-template-location=true
+spring.thymeleaf.content-type=text/html
+spring.thymeleaf.enabled=true
+spring.thymeleaf.encoding=UTF-8
+spring.thymeleaf.mode=LEGACYHTML5
+spring.thymeleaf.prefix=classpath:/static/
+spring.thymeleaf.suffix=.html
+```
+
+
+### 5. สร้าง Nuxt project ที่ root maven project
 run คำสั่งดังต่อไปนี้
 ```shell
 $ npx create-nuxt-app nuxtjs
@@ -93,10 +110,10 @@ $ npx create-nuxt-app nuxtjs
   
 จากนั้นรอให้ yarn install package ต่างๆ ให้ (อย่าลืมต่อ internet น่ะ)  
 
-### 5. ลบไฟล์ .git ใน folder nuxtjs ออก
+### 6. ลบไฟล์ .git ใน folder nuxtjs ออก
 ให้ไปใช้ .git ที่ root maven project แทน
 
-### 6. ย้าย .gitignore ใน folder nuxtjs 
+### 7. ย้าย .gitignore ใน folder nuxtjs 
 ไปไว้ที่ root mavn project จากนั้น แก้ทุก ignore ให้เติม prefix `nuxtjs/`  
 ```
 nuxtjs/logs
@@ -120,7 +137,7 @@ nuxtjs/yarn.lock
 ```
 
 
-### 7. แก้ไฟล์ nuxtjs/nuxt.config.js  
+### 8. แก้ไฟล์ nuxtjs/nuxt.config.js  
 แก้ dist path ให้ชี้ไปที่ `../src/main/resources/static`
 ```
 export default {
@@ -132,14 +149,14 @@ export default {
   ...
 ```
 
-### 8. ลอง build nuxt.js    
+### 9. ลอง build nuxt.js    
 ```
 $ cd nuxtjs
 yarn build  
 ```
 จะพบว่ามีการสร้าง index.html ไว้ที่ `src/main/resources/static`
 
-### 9. ลอง run spring-boot 
+### 10. ลอง run spring-boot 
 ```
 $ mvn spring-boot:run 
 ```
