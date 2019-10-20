@@ -3,6 +3,7 @@
 ### Steps สำหรับ build & run   
 ```
 $ git clone https://github.com/jittagornp/spring-boot-webflux-nuxtjs.git  
+$ cd spring-boot-webflux-nuxtjs  
 $ cd nuxtjs
 $ yarn install  
 $ yarn build  
